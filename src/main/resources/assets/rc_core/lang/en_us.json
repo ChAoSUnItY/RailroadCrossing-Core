@@ -1,0 +1,5 @@
+{
+  "itemGroup.rc_core.common": "Railroad Crossing: Core",
+  "item.rc_core.receiver_circuit": "Receiver Circuit",
+  "item.rc_core.emitter_circuit": "Emitter Circuit"
+}
