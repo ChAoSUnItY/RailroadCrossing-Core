@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "RcP",
+    "GiG"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_torch"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "P": {
+      "item": "minecraft:repeater"
+    },
+    "G": {
+      "item": "minecraft:green_dye"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "rc_core:receiver_circuit",
+    "count": 1
+  },
+  "group": "circuit"
+}

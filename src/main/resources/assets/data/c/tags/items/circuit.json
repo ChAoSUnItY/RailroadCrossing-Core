@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "rc_core:receiver_circuit",
+    "rc_core:emitter_circuit"
+  ]
+}
