@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "rc_core",
+  "version": "${version}",
+  "name": "Railroad Crossing: Core",
+  "description": "A common library for railroad crossing mod series",
+  "authors": [
+    "ChAoS_UnItY"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rc_core/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "chaos.unity.railroad_crossing.core.client.RailroadCrossingCoreClient"
+    ],
+    "main": [
+      "chaos.unity.railroad_crossing.core.RailroadCrossingCore"
+    ]
+  },
+  "mixins": [
+    "RailroadCrossing-Core.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.5",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
